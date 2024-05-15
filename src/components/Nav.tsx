@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from "next/image";
 import { CiLocationOn, CiClock2 } from "react-icons/ci";
+import { FaSearch, FaShoppingBag } from "react-icons/fa";
 
 export default function Nav() {
     const [activeSection, setActiveSection] = useState('home');
@@ -39,10 +40,10 @@ export default function Nav() {
         <nav className="bg-transparent p-4 px-8 absolut w-full z-20 flex flex-col">
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center text-white text-left">
-                <CiLocationOn />
+                    <div className='text-4xl mr-2'><CiLocationOn /></div>
                     <div className='flex flex-col'>
                     <h2>We are Here</h2>
-                    <p>5 Rue Dolou</p>
+                    <p className='text-sm'>5 Rue Dolou, 755</p>
                     </div>
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
@@ -51,13 +52,14 @@ export default function Nav() {
                 <div className="flex items-center text-white text-right">
                     <div className='flex flex-col'>
                     <h2>Working House</h2>
-                    <p>5 Rue Dolou</p>
+                    <p className='text-sm'>Mon - Sex 09:00 PM</p>
                     </div>
-                    <CiClock2 />
+                    <div className='text-4xl ml-2'><CiClock2 /></div>
                 </div>
             </div>
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between border-t border-gray-500 mt-5 pt-5">
                 <div className="flex items-center">
+                <button className='flex text-white px-2 py-2 gap-4'><FaSearch /><FaShoppingBag /></button>
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
@@ -82,6 +84,7 @@ export default function Nav() {
                     </button>
                 </div>
                 <div className="flex items-center">
+                    <button className='bg-white text-black px-6 py-2'>Login</button>
                 </div>
             </div>
         </nav>
