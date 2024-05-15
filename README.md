@@ -1,6 +1,6 @@
 # ☕ Cafty
 
-![795shots_so](https://github.com/VictorBravim/Cofty/assets/122113588/786692ca-54d4-44fd-a818-a5429a9e64a5)
+![323shots_so](https://github.com/VictorBravim/Cofty/assets/122113588/05511d19-4549-4a8e-b5d5-3425e41e7262)
 
 ## 🚀 Overview
 
