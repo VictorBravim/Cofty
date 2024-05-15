@@ -6,7 +6,7 @@ import { SiCoffeescript } from "react-icons/si";
 
 export default function About() {
     return (
-        <div className="container mx-auto lg:mt-80 mb-8 flex flex-col lg:flex-row items-center justify-center lg:justify-between py-12">
+        <div id='sobre' className="container mx-auto lg:mt-80 mb-8 flex flex-col lg:flex-row items-center justify-center lg:justify-between py-12">
             <div className="w-full lg:w-1/2 pl-2 lg:pl-8">
                 <p className="text-lg text-brown-custom mb-2 p-1">SOME BENEFITS</p>
                 <h2 className="text-6xl text-white font-bold mb-6">Only Quality Coffee Beans</h2>
