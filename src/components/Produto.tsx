@@ -25,7 +25,7 @@ const Produto: React.FC = () => {
                                 alt={produto.nome}
                                 objectFit="cover"
                                 className='my-8'
-                                width={250} 
+                                width={250}
                                 height={32}
                             />
                         </div>

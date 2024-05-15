@@ -1,4 +1,4 @@
-// Footer.tsx  <Image src={logo} alt="Texto" width={150} height={32} />
+// Footer.tsx
 'use client'
 import { useState, useEffect } from 'react';
 import Image from "next/image";
