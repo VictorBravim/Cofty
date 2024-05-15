@@ -1,7 +1,8 @@
-// Nav.tsx  <Image src={logo} alt="Texto" width={150} height={32} />
+// Nav.tsx 
 'use client'
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import logo from "@/assets/logo.png"
 import { CiLocationOn, CiClock2 } from "react-icons/ci";
 import { FaSearch, FaShoppingBag } from "react-icons/fa";
 
@@ -46,7 +47,8 @@ export default function Nav() {
                     <p className='text-sm'>5 Rue Dolou, 755</p>
                     </div>
                 </div>
-                <div className="flex items-center text-white space-x-6 lg:space-x-12">
+                <div className="flex items-center text-white space-x-2">
+                    <Image src={logo} alt="Texto" width={50} height={32} />
                     <h1 className='text-xl'>CAFTY</h1>
                 </div>
                 <div className="flex items-center text-white text-right">

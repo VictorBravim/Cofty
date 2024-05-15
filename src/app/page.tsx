@@ -3,6 +3,7 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import Cards from '@/components/Cards';
 import About from '@/components/About';
+import Promo from '@/components/Promo';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Cards />
       <About />
+      <Promo />
       <Footer />
     </main>
   );
