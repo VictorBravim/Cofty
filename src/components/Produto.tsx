@@ -16,7 +16,7 @@ const Produto: React.FC = () => {
     return (
         <div id='produtos' className="flex flex-col justify-center items-center py-6">
             <h2 className="text-brown-custom text-3xl font-bold mb-6">Produtos</h2>
-            <div className="w-full px-64 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="w-full px-2 lg:px-64 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {produto.map((produto) => (
                     <div key={produto.id} className="flex flex-col items-center bg-blue-custom shadow-lg overflow-hidden">
                         <div className="relative py-2">
