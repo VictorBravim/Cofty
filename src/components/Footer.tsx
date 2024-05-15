@@ -41,25 +41,27 @@ export default function Footer() {
                 </div>
                 <div className="md:flex space-x-2 lg:space-x-12 mt-4 md:mt-0">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('produtos')}>
                         PRODUTOS
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('sobre')}>
                         SOBRE
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('contato')}>
                         CONTATO
                     </button>
+                </div>
+                <div className="flex items-center mb-2 lg:mb-0">
                 </div>
             </div>
         </footer>
