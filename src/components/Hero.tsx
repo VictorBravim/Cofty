@@ -1,48 +1,18 @@
 // Hero.tsx
 'use client'
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Image from "next/image";
-import banner1 from '@/assets/banner1.png'
-import banner2 from '@/assets/banner2.png'
-import banner3 from '@/assets/banner3.png'
 
 export default function Hero() {
-    const sliderSettings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        adaptiveHeight: false,
-        arrows: false,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                },
-            },
-        ],
-    };
-
     return (
-        <div id='home' className="w-full px-8 lg:px-12">
-            <Slider {...sliderSettings}>
-                <div className='shadow-lg'>
-                    <Image src={banner1} className="bg-white w-full h-1/2 object-cover pointer-events-none" alt="Slide 1" />
-                </div>
-                <div className='shadow-lg'>
-                    <Image src={banner2} className="bg-white w-full h-1/2 object-cover pointer-events-none" alt="Slide 2" />
-                </div>
-                <div className='shadow-lg'>
-                    <Image src={banner3} className="bg-white w-full h-1/2 object-cover pointer-events-none" alt="Slide 3" />
-                </div>
-            </Slider>
+        <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/path-to-your-image.jpg')" }}>
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
+                <h1 className="text-5xl font-bold">Seu Texto Aqui</h1>
+                <p className="mt-4 text-lg">Texto descritivo adicional pode ser colocado aqui.</p>
+                <button className="mt-8 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md">
+                    Clique Aqui
+                </button>
+            </div>
         </div>
     );
 }

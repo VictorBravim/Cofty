@@ -1,8 +1,7 @@
-// Nav.tsx
+// Nav.tsx  <Image src={logo} alt="Texto" width={150} height={32} />
 'use client'
 import { useState, useEffect } from 'react';
 import Image from "next/image";
-import logo from '@/assets/logo.png'
 
 export default function Nav() {
     const [activeSection, setActiveSection] = useState('home');
@@ -39,7 +38,6 @@ export default function Nav() {
         <nav className="bg-transparent p-8 absolut w-full z-20">
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center">
-                    <Image src={logo} alt="Texto" width={150} height={32} />
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
