@@ -35,31 +35,50 @@ export default function Nav() {
     };
 
     return (
-        <nav className="bg-transparent p-8 absolut w-full z-20">
+        <nav className="bg-transparent p-4 px-8 absolut w-full z-20 flex flex-col">
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+                <div className="flex items-center text-white text-left">
+                    <div className='flex flex-col'>
+                    <h2>We are Here</h2>
+                    <p>5 Rue Dolou</p>
+                    </div>
+                </div>
+                <div className="flex items-center text-white space-x-6 lg:space-x-12">
+                    <h1 className='text-xl'>CAFTY</h1>
+                </div>
+                <div className="flex items-center text-white text-right">
+                    <div className='flex flex-col'>
+                    <h2>Working House</h2>
+                    <p>5 Rue Dolou</p>
+                    </div>
+                </div>
+            </div>
+            <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between border-t border-gray-500 mt-5 pt-5">
                 <div className="flex items-center">
                 </div>
                 <div className="flex items-center text-white space-x-6 lg:space-x-12">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-md ${activeSection === 'home' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('home')}>
                         HOME
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'produtos' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-md ${activeSection === 'produtos' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('produtos')}>
                         PRODUTOS
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-md ${activeSection === 'sobre' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('sobre')}>
                         SOBRE
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-transparent text-white py-2 border-b-2 border-white' : ''}`}
+                        className={`text-base md:text-md ${activeSection === 'contato' ? 'bg-transparent text-white py-2' : ''}`}
                         onClick={() => scrollToSection('contato')}>
                         CONTATO
                     </button>
+                </div>
+                <div className="flex items-center">
                 </div>
             </div>
         </nav>
