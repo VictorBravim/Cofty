@@ -2,6 +2,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import { CiLocationOn, CiClock2 } from "react-icons/ci";
 
 export default function Nav() {
     const [activeSection, setActiveSection] = useState('home');
@@ -38,6 +39,7 @@ export default function Nav() {
         <nav className="bg-transparent p-4 px-8 absolut w-full z-20 flex flex-col">
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center text-white text-left">
+                <CiLocationOn />
                     <div className='flex flex-col'>
                     <h2>We are Here</h2>
                     <p>5 Rue Dolou</p>
@@ -51,6 +53,7 @@ export default function Nav() {
                     <h2>Working House</h2>
                     <p>5 Rue Dolou</p>
                     </div>
+                    <CiClock2 />
                 </div>
             </div>
             <div className="mx-5 flex flex-col lg:flex-row items-center justify-center lg:justify-between border-t border-gray-500 mt-5 pt-5">
