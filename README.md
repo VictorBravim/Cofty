@@ -7,7 +7,7 @@
 Cafty is a modern and elegant website template for a coffee house. The project is built using React with Next.js for server-side rendering and Tailwind CSS for styling. The template includes several sections such as Home, Products, About, Promotions, and Contact, each designed to provide a smooth and engaging user experience.
  
 ## 📋 Requirements
-
+ 
 - [Node.js](https://nodejs.org/en/) (version 12 or higher)
 - [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
 
