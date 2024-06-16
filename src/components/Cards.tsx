@@ -1,8 +1,8 @@
 // Cards.tsx
 import Image from "next/image";
-import cafe1 from '@/assets/Cafe1.png'
-import cafe2 from '@/assets/Cafe2.png'
-import cafe3 from '@/assets/Cafe3.png'
+import cafe1 from '@/assets/Cafe1.webp'
+import cafe2 from '@/assets/Cafe2.webp'
+import cafe3 from '@/assets/Cafe3.webp'
 
 export default function Cards() {
     return (

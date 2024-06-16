@@ -2,9 +2,9 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import americano from '@/assets/Cafe1.png';
-import latte from '@/assets/Cafe2.png'
-import mocha from '@/assets/Cafe3.png'
+import americano from '@/assets/Cafe1.webp';
+import latte from '@/assets/Cafe2.webp'
+import mocha from '@/assets/Cafe3.webp'
 
 const produto = [
     { id: 1, nome: 'Americano', preco: 6, imagem: americano },

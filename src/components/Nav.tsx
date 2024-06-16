@@ -2,7 +2,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Image from "next/image";
-import logo from "@/assets/logo.png"
+import logo from "@/assets/logo.webp"
 import { CiLocationOn, CiClock2 } from "react-icons/ci";
 import { FaSearch, FaShoppingBag } from "react-icons/fa";
 
@@ -51,7 +51,7 @@ export default function Nav() {
                 </div>
                 <div className="flex items-center text-white space-x-2">
                     <Image src={logo} alt="Texto" width={50} height={32} />
-                    <h1 className='text-xl'>CAFTY</h1>
+                    <h1 className='text-xl'>COFTY</h1>
                 </div>
                 <div className='hidden lg:block'>
                     <div className="flex items-center text-white text-right">

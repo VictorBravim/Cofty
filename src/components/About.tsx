@@ -1,6 +1,6 @@
 // About.tsx
 import Image from "next/image";
-import about from '@/assets/About.png'
+import about from '@/assets/About.webp'
 import { GiCoffeeBeans, GiCoffeePot } from "react-icons/gi";
 import { SiCoffeescript } from "react-icons/si";
 
