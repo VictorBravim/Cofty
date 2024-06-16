@@ -1,4 +1,4 @@
-# ☕ Cafty
+# ☕ Cofty
 
 ![image 14](https://github.com/VictorBravim/Cofty/assets/122113588/fa315ec5-366c-41c1-89f3-21b0b4b8503e)
 
@@ -16,13 +16,13 @@ Cafty is a modern and elegant website template for a coffee house. The project i
 1. Clone the repository:
 
 ```
-git clone https://github.com/VictorBravim/Cafty.git
+git clone https://github.com/VictorBravim/Cofty.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd Cafty
+cd Cofty
 ```
 
 3. Install the dependencies:
