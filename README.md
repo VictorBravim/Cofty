@@ -12,7 +12,7 @@ Cafty is a modern and elegant website template for a coffee house. The project i
 - [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
 
 ## 🔧 Installation
-
+ 
 1. Clone the repository:
 
 ```
